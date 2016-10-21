@@ -1,0 +1,174 @@
+/* This is the mobile responsive stylesheet */
+
+@media only screen and (min-width: 768px) and (max-width: 800px){
+    /* tablets and desktop */
+    #social {
+        display: none;
+    }
+    #social-fin {
+        display: block;
+    }
+
+    #social-fin img {
+      padding: 0 2em;
+    }
+    #menu-responsive {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px){
+    #social {
+        display: none;
+    }
+
+    #menu p {
+        display: none;
+    }
+
+    .content {
+        padding: 1em 15%;
+    }
+    .start {
+      margin-top: 0;
+    }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    #social {
+        display: none;
+    }
+
+    .photoUne, .large1, .large2, .large3, .large4, .large5 {
+        background-attachment: scroll;
+    }
+
+    .content {
+        padding: 1em 15%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .start {
+      margin-top: 0;
+    }
+    
+    .content {
+      margin: 0 auto;
+      position: relative;
+      padding: 1em;
+    }
+    header h1 {
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+    }
+    header h2 {
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    }
+    blockquote.left {
+
+        margin: 1em 1em 1em 0;
+        padding: 1em 0;
+        font-size: 1.5em;
+        width: 100%;
+        position: relative;
+        float: none;
+        text-align: center;
+    }
+    blockquote.right {
+
+        margin: 1em 1em 1em 0;
+        padding: 1em 0;
+        font-size: 1.5em;
+        width: 100%;
+        position: relative;
+        float: none;
+        text-align: center; 
+    }
+    #social {
+        display: none;
+    }
+    #social-fin {
+        display: block;
+    }
+
+    #sticky-anchor {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+    #menu-responsive, #menu-responsive ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        width: 100%;
+    }
+    #menu-responsive {
+    /* on centre le menu dans la page */
+        text-align: center;
+        position: fixed;
+        margin-top: 40px;
+        z-index: 9998;
+        background-color: #333;
+    }
+    #menu-responsive ul li {
+    /* on enlève ce comportement pour les liens du sous menu */
+        display: inherit;
+        width: 100%;
+    }
+    #menu-responsive ul {
+        position: absolute;
+        left: auto;
+        text-align: center;
+        z-index: 1000;
+        background-color: #333;
+    }
+
+    #menu-responsive a {
+        text-decoration: none;
+        display: block;
+        color: #fff;
+        font-size: 1em;
+        font-weight: lighter;
+        margin-bottom: 5px;
+        border-bottom: 1px dotted #666;
+    }
+
+    /*Style 'show menu' label button and hide it by default*/
+    .show-menu {
+      text-decoration: none;
+      color: #fff;
+      background-color: #333;
+      text-align: center;
+      width: 100%;
+      display: block !important;
+      position: fixed;
+      font-size: 1em;
+      font-weight: lighter;
+      text-transform: uppercase;
+      margin-top: 0px;
+      height: 40px;
+      z-index: 9998;
+      border-bottom: 1px solid #9e9e9e;
+      padding-top: 10px;
+    }
+
+    aside img {
+        max-width: 50%;
+    }
+
+    .photoUne, .large1, .large2, .large3, .large4, .large5 {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+    header h1 {
+        font-size: 7vh;
+    }
+}
