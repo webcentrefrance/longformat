@@ -223,10 +223,6 @@ header a:hover {
 
 /* Text blocks */
 
-.start {
-
-}
-
 .content {
   margin: 0 auto;
   position: relative;
@@ -311,15 +307,11 @@ progress::-moz-progress-bar {
   background-color: #bd2b0b;
 }
 
-.start {
-  margin-top: -4em;
-}
-
 #social {
   font-size: 15px;
   line-height: 0.5;
-  position: relative;
-  top: 35px;
+  position: absolute;
+  top: 104%;
   left: 55px;
   width: 180px;
   z-index: 99;
