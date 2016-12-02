@@ -49,6 +49,7 @@ a:hover {
 
 figure {
   margin: 0; /* resets the left margin in the figure*/
+  text-align: center;
 }
 
 figure img {
