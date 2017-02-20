@@ -49,6 +49,7 @@ a:hover {
 
 figure {
   margin: 0; /* resets the left margin in the figure*/
+  text-align: center;
 }
 
 figure img {
@@ -61,23 +62,6 @@ figcaption {
   font-size: 16px;
   color: #888;
   font-style: italic;
-}
-
-aside {
-  margin-top: 1em;
-}
-
-aside img {
-  max-width: 30%;
-  float: left;
-  padding: 0 1em 0 0;
-}
-
-aside iframe {
-  max-width: 100%;
-  float: left;
-  padding: 0 1em 0 0;
-  margin-bottom: 1em;
 }
 
 blockquote.left {
@@ -106,12 +90,23 @@ blockquote.right {
   position: relative;
 }
 
+#journo {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.chapo {
+  font-weight: bold;
+  padding: 0.2em 2em;
+  color: #777777;
+  font-size: 1.2em;
+  line-height: 110%;
+}
+
 .cita-int {
   width: 70%;
   border-left: 4px solid #666;
   font-style: italic;
   padding-left: 1em;
-  /*margin-left: 1em;*/
   margin: auto;
   font-size: 0.9em;
   color: #666;
@@ -158,17 +153,17 @@ header {
 }
 
 header span {
-  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
 }
 
 header h1 {
   margin: 0;
   font-size: 6vw;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.4);
 }
 
 header h2 {
-  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
 }
 
 header a {
@@ -221,10 +216,6 @@ header a:hover {
 }
 
 /* Text blocks */
-
-.start {
-
-}
 
 .content {
   margin: 0 auto;
@@ -310,15 +301,11 @@ progress::-moz-progress-bar {
   background-color: #bd2b0b;
 }
 
-.start {
-  margin-top: -4em;
-}
-
 #social {
   font-size: 15px;
   line-height: 0.5;
-  position: relative;
-  top: 35px;
+  position: absolute;
+  top: 104%;
   left: 55px;
   width: 180px;
   z-index: 99;
