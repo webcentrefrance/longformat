@@ -83,6 +83,9 @@
         float: none;
         text-align: center; 
     }
+    .chapo {
+        padding: 0;
+    }
     #social {
         display: none;
     }

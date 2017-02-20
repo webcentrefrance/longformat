@@ -90,6 +90,18 @@ blockquote.right {
   position: relative;
 }
 
+#journo {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.chapo {
+  font-weight: bold;
+  padding: 0.2em 2em;
+  color: #777777;
+  font-size: 1.2em;
+  line-height: 110%;
+}
+
 .cita-int {
   width: 70%;
   border-left: 4px solid #666;
@@ -142,17 +154,17 @@ header {
 }
 
 header span {
-  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
 }
 
 header h1 {
   margin: 0;
   font-size: 6vw;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.4);
 }
 
 header h2 {
-  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
 }
 
 header a {
