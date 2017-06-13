@@ -1,4 +1,4 @@
-#Maquette long format
+# Maquette long format
 
 Framework de long format pour les titres du groupe Centre France.
 
