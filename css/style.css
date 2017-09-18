@@ -75,6 +75,12 @@ blockquote.left {
   font-style: italic;
   width: 33%;
   position: relative;
+  background-color: white;
+  background-image: url("../img/social/quotes.png");
+  background-position: top right;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: auto 60%;
 }
 
 blockquote.right {
@@ -88,6 +94,12 @@ blockquote.right {
   font-style: italic;
   width: 33%;
   position: relative;
+  background-color: white;
+  background-image: url("../img/social/quotes.png");
+  background-position: top right;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: auto 60%;
 }
 
 #journo {
