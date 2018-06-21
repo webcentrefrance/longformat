@@ -6,7 +6,7 @@ body { /* sets the page defaults e.g. background and default typography */
   background: #fff;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: #333f48;
 }
@@ -38,6 +38,21 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  width: 80%;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+h4 {
+  color: #bd2b0b;
+  font-weight: 400;
+  width: 80%;
+  margin-right: auto;
+  margin-left:auto;
+
+}
+
 a {
   color: #333f48;
 }
@@ -45,6 +60,12 @@ a {
 a:hover {
   color: #a2aaad;
   text-decoration: none;
+}
+
+.content p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figure {
@@ -55,6 +76,11 @@ figure {
 figure img {
   max-width: 100%; /* images will shrink to fit inside the main conent column*/
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.multiple-photo figure img {
+  max-width: 49.7%;
+  display: inline-block;
 }
 
 figcaption {
@@ -124,6 +150,10 @@ blockquote.right {
   color: #666;
 }
 
+.cita-int p {
+  width: 100%;
+}
+
 .encadre {
   background-color : #fef3f1;
   border-radius: 2px;
@@ -132,16 +162,20 @@ blockquote.right {
 }
 
 .encadre p {
+  width: 90%;
   font-family: 'Lora', serif;
   font-size: 0.9em;
 }
 
 .lireaussi {
+  width: 80%;
+  margin: auto;
   background-color: #e3e3e3;
   border-radius: 2px;
 }
 
 .lireaussi p {
+  width: 100%;
   padding: 15px 20px;
 }
 
@@ -210,7 +244,7 @@ header a:hover {
 }
 
 .large2 {
-  background: url(../img/IMG_2927.JPG) no-repeat;
+  background: url(../img/IMG_2927.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -237,7 +271,7 @@ header a:hover {
 }
 
 #menu {
-  font-size: 0.7em;
+  font-size: 0.8em;
   line-height: 1.5;
   position: fixed;
   margin-top: 0px;
